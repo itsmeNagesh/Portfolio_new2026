@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { personalInfo, socialLinks } from '../data/mock';
 import { Github, Linkedin, Mail, Briefcase, ChevronDown, Code2, Database, Cpu, Sparkles } from 'lucide-react';
+import profilePhoto from '../profile-photo.PNG';
 import { Button } from './ui/button';
 
 const Hero = () => {
@@ -53,9 +54,9 @@ return ( <section className="relative min-h-screen flex items-center justify-cen
     />
 
     {/* profile image */}
-    <div className="absolute inset-12 sm:inset-14 rounded-full overflow-hidden border-2 border-cyan-500/50 bg-black">
+      <div className="absolute inset-12 sm:inset-14 rounded-full overflow-hidden border-2 border-cyan-500/50 bg-black">
       <img
-        src="/profile-photo.PNG"
+        src={profilePhoto}
         alt={personalInfo.name}
         className="w-full h-full object-cover object-center scale-110 hover:scale-125 transition duration-700"
       />
