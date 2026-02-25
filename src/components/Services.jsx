@@ -1,13 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { services } from '../data/mock';
-import { Code2, Bot, Database, Briefcase } from 'lucide-react';
+import { Code2, Bot, Database, Briefcase, Headphones, Server } from 'lucide-react';
 
 const iconMap = {
   Code2,
   Bot,
   Database,
-  Briefcase
+  Briefcase,
+  Headphones,
+  Server
 };
 
 const Services = () => {

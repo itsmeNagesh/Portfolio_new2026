@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { skills } from '../data/mock';
 
 const Skills = () => {
-  const categories = ['Frontend', 'Backend', 'Database', 'AI/ML', 'Tools'];
+  const categories = ['IT Support', 'System Admin', 'Networking', 'Tools', 'Bonus Tech'];
 
   const containerVariants = {
     hidden: { opacity: 0 },
